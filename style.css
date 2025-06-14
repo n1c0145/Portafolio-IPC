@@ -37,14 +37,15 @@ body {
 }
 
 
-/* =============== BASE (≥1200px) =============== */
+/* font size responsive */
+
 h1, .h1 { font-size: 2.5rem; }
 h2, .h2 { font-size: 2rem; }
 h3, .h3 { font-size: 1.75rem; }
 h4, .h4 { font-size: 1.5rem; }
 h5, .h5 { font-size: 1.25rem; }
 
-/* =============== 992px – 1199.98px → -0.25rem =============== */
+
 @media (max-width: 1199.98px) and (min-width: 992px) {
   h1, .h1 { font-size: 2.25rem; }
   h2, .h2 { font-size: 1.75rem; }
@@ -53,7 +54,7 @@ h5, .h5 { font-size: 1.25rem; }
   h5, .h5 { font-size: 1rem; }
 }
 
-/* =============== 768px – 991.98px → -0.5rem =============== */
+
 @media (max-width: 991.98px) and (min-width: 768px) {
   h1, .h1 { font-size: 2rem; }
   h2, .h2 { font-size: 1.5rem; }
@@ -62,7 +63,7 @@ h5, .h5 { font-size: 1.25rem; }
   h5, .h5 { font-size: 0.75rem; }
 }
 
-/* =============== <768px → -1rem =============== */
+
 @media (max-width: 767.98px) {
   h1, .h1 { font-size: 1.75rem; }
   h2, .h2 { font-size: 1.25rem; }
@@ -150,6 +151,6 @@ h5, .h5 { font-size: 1.25rem; }
 
 @media (max-width: 375px) {
     .elements-nav-size {
-        font-size: 0.7;
+        font-size: 0.7rem;
     }
 }
