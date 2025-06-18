@@ -1,8 +1,9 @@
 :root {
-    --color-primario: #0B2B67;
+    --color-primario: #000046;
     --color-secundario: rgba(19, 19, 149, 0.34);
 
 }
+
 
 body {
   font-family: 'Outfit';
